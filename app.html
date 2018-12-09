@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+<h1>Hello</h1>
+
+
+<svg width="720" height="120">
+    <circle cx="40" cy="60" r="10"></circle>
+    <circle cx="80" cy="60" r="10"></circle>
+    <circle cx="120" cy="60" r="10"></circle>
+</svg>
+
+
+<script>
+
+
+    d3.select("body").append("span")
+        .text("Hello, world!");
+
+    // var d3 = require("d3"),
+    //     jsdom = require("jsdom");
+
+//    var document = jsdom.jsdom()
+    var    svg = d3.select("svg");
+
+    var line = d3.line()
+
+    line(data)
+
+</script>
+
+</body>
+</html>
